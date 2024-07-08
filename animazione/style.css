@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-color{
+  background-color: blue;
+}
+
+.icona {
+    
+  cursor: pointer; 
+  transition: transform 0.3s ease; 
+  
+}
+.icona:hover {
+  transform: scale(1.5)}
+
+.icona:active {
+    transform: scale(2.5)}
